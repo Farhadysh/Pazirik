@@ -1,0 +1,302 @@
+
+@page {
+    size: A5; ;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: Vazir;
+    font-weight: 500 !important;
+    color: #292929;
+    font-size: .9rem !important;
+    /*background-color: #eef5f9;*/
+}
+
+div {
+    page: blank;
+    page-break-after: avoid;
+}
+.factor_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    direction: rtl;
+    background-color: white;
+}
+
+.btn_print {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+}
+
+.btn_print button {
+    border: 1px solid #c1c1c1;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background: transparent;
+    text-align: center;
+    margin: 0 8px 2px 8px;
+
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.title span {
+    font-weight: 600;
+
+
+}
+
+.num_fac {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+}
+
+.span_style {
+    display: flex;
+    align-items: flex-start;
+    font-size: .8em;
+
+}
+
+.fac_name {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+
+.fac_style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+    line-height: 1.5;
+}
+.name_m{
+    display: flex;
+}
+
+.fac_style span:first-child {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+.name_m span:first-child {
+    direction: rtl;
+    font-size: 1em;
+}
+.name_m span:last-child {
+    direction: rtl;
+    font-size: 1em;
+
+}
+
+.data {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.data_send{
+    display: flex;
+
+    align-items: flex-start;
+    font-size: .8em;
+
+}
+.data_delivery{
+    display: flex;
+    font-size: .8em;
+    align-items: flex-start;
+}
+.data_send span:first-child,
+.data_delivery span:first-child {
+    margin-left: 10px;
+    font-size: 1em;
+
+}
+
+.factor_list {
+    border: 2px solid black;
+    height: auto;
+    width: 95%;
+    margin-top:5px;
+}
+
+.list_top {
+    width: 100%;
+}
+
+.list_bottom {
+    width: 100%;
+    border: none;
+}
+
+.fac_lis_title {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    border-bottom: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.fac_lis_title span {
+    width: 25%;
+    text-align: center;
+    border-left: 2px solid black;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+.fac_lis_title span:last-child {
+    border-left: none;
+}
+.fac_lis_content span:last-child {
+    border-left: none;
+}
+
+.fac_lis_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.fac_lis_content span {
+    width: 25%;
+    text-align: center;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid rgba(0, 0, 0, .2);
+    font-size: .8em;
+}
+
+.list_top div:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.service span:first-child {
+    width: 75%;
+    text-align: center;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid rgba(0, 0, 0, .2);
+    font-size: .8em;
+}
+
+.service span:last-child {
+    width: 25%;
+    text-align: center;
+    font-size: .8em;
+}
+
+.info_content {
+    display: flex;
+    width: 95%;
+    margin-bottom: 5px;
+
+    padding: 0 0 10px 0;
+}
+.info_content_two {
+    display: flex;
+    width: 95%;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed #000;
+    padding: 0 0 20px 0;
+}
+
+.info_right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    line-height: 1.2;
+    font-size: .9em;
+}
+
+.info_left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.2;
+    font-size: .9em;
+    padding: 0 10px;
+}
+.info_left_two {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.2;
+    font-size: .9em;
+    padding: 0 10px;
+}
+
+.left_top {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    font-size: .8em;
+}
+.left_bottom {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    font-size: .8em;
+}
+.moshtari_info{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: .9em;
+    font-weight: 600;
+}
+.emza_text{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+.emza_text span{
+    width: 45%;
+    font-size: .9em;
+
+}
